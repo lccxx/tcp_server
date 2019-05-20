@@ -48,8 +48,8 @@ module TcpServer
 
     res = [ "HTTP/1.1 200 OK" ]
     res << "Content-Type: text/html; charset=utf-8"
-    res << "Set-Cookie: __cfduid=d09648354e040982033941b536a7841a21558335493; path=/; domain=.58x8bar.com; HttpOnly"
-    res << "Set-Cookie: PbootSystem=235ff92fd48a2024e84ab67da63e83ca; path=/; HttpOnly"
+    res << "Set-Cookie: yyy_id=d09648354e040982033941b536a7841a21558335493; path=/; domain=xxx.com; HttpOnly"
+    res << "Set-Cookie: xxx_id=235ff92fd48a2024e84ab67da63e83ca; path=/; HttpOnly"
     res << ""
     res << "<input name=\"formcheck\" value=\"de35c20d6d39701ec44a64dc3c3132d9\" />"
 
