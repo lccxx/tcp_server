@@ -1,0 +1,13 @@
+name: tcp_server
+version: 0.1.0
+
+authors:
+  - Lich <lich@netwcom.com>
+
+targets:
+  tcp_server:
+    main: src/tcp_server.cr
+
+crystal: 0.28.0
+
+license: MIT

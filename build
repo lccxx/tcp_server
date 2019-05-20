@@ -1,0 +1,3 @@
+#!/bin/bash
+
+crystal build --progress src/tcp_server.cr -o bin/tcp_server
